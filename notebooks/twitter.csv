@@ -1,124 +1,165 @@
-,created_at,edit_history_tweet_ids,id,text,author_id
-0,2022-11-20T00:29:04.000Z,['1594125640218746880'],1594125640218746880,"When it comes to explaining election outcomes, reality is usually messier than a just-so story. https://t.co/Fri9sHZNNS",2303751216
-1,2022-11-19T22:42:04.000Z,['1594098711495430145'],1594098711495430145,Congress will have the most Black Republicans in over a century — but that’s not saying a lot.  https://t.co/RMDWa6Ykro,2303751216
-2,2022-11-19T20:20:04.000Z,['1594062976012910593'],1594062976012910593,"Election denialism lives on, even as candidates who support it concede https://t.co/Rv8kMqjVpF",2303751216
-3,2022-11-19T20:00:07.000Z,['1594057956844535808'],1594057956844535808,Even the weakest group this year is strong by historical standards. https://t.co/nundlAHANZ,2303751216
-4,2022-11-19T18:42:03.000Z,['1594038311512936449'],1594038311512936449,Our 2022-23 NHL predictions: https://t.co/zI9cNpvpqv,2303751216
-5,2022-11-19T16:31:04.000Z,['1594005345071947777'],1594005345071947777,How many turkey trotters can you pass? https://t.co/v7uxS4Mu1X,2303751216
-6,2022-11-19T14:45:03.000Z,['1593978666865795073'],1593978666865795073,The New Jersey Devils are scorching the NHL again https://t.co/m80afScErt,2303751216
-7,2022-11-19T01:28:07.000Z,['1593778112709685249'],1593778112709685249,Kyrie Irving's stats aren't worth the drama https://t.co/wa4yTpQ8rs,2303751216
-8,2022-11-19T01:04:04.000Z,['1593772058219057153'],1593772058219057153,So you think you can explain the election https://t.co/wCeBisWjjn,2303751216
-9,2022-11-19T00:45:04.000Z,['1593767277291503616'],1593767277291503616,The Riddler: How many turkey trotters can you pass? https://t.co/ppme70sHlL,2303751216
-10,2022-11-19T00:19:05.000Z,['1593760739440869376'],1593760739440869376,"Brazil is the favorite and Messi is the star, but the 2022 World Cup is up for grabs. https://t.co/Xcd4cMqZcA",2303751216
-11,2022-11-18T23:46:02.000Z,['1593752420999630848'],1593752420999630848,How our 2022 World Cup predictions work: https://t.co/xSD0Hb1VuA,2303751216
-12,2022-11-18T23:20:03.000Z,['1593745883849433088'],1593745883849433088,Election denial is alive and well and still capable of rearing its ugly head in 2024. https://t.co/B9f7v2syEj,2303751216
-13,2022-11-18T22:33:02.000Z,['1593734050258173952'],1593734050258173952,From @NateSilver538: Why DeSantis is a major threat to Trump’s reelection https://t.co/v8gehgCGe3,2303751216
-14,2022-11-18T22:10:03.000Z,['1593728268246687745'],1593728268246687745,Is the United States in an era of high voter turnout? https://t.co/foyE4YTMd6,2303751216
-15,2022-11-18T21:52:22.000Z,['1593723815829307404'],1593723815829307404,Here’s how everything shook out in the 2022 election — and the handful of races that are still up in the air: https://t.co/VmKbknZzRw,2303751216
-16,2022-11-18T21:39:06.000Z,['1593720479570722817'],1593720479570722817,Our 2022 World Cup predictions: https://t.co/63JsgOQwor,2303751216
-17,2022-11-18T21:15:07.000Z,['1593714443459993601'],1593714443459993601,"While Trump has kept a tight grip on the GOP since 2016, his support is no longer unanimous, especially among party elites. https://t.co/YWgoQyGLS2 https://t.co/tkRzIzMJzA",2303751216
-18,2022-11-18T20:32:07.000Z,['1593703621975281665'],1593703621975281665,The start of the tournament comes with plenty of questions about who might lift soccer’s most prestigious trophy. https://t.co/W5vE3GLiH3,2303751216
-19,2022-11-18T20:20:04.000Z,['1593700590202355714'],1593700590202355714,Tracking Trump's favorability with Americans: https://t.co/xlvJmrQe9t,2303751216
-20,2022-11-18T19:45:10.000Z,['1593691803756417025'],1593691803756417025,"For a team that went 27-55 last season and hasn’t posted either a winning record or a positive scoring margin in five years, there’s a sense of growing excitement that hasn’t been felt since the glory days of yesteryear. https://t.co/T1Sgn23KJN",2303751216
-21,2022-11-18T19:42:02.000Z,['1593691018213429255'],1593691018213429255,How the midterms made state governments bluer: https://t.co/2Srt4l3ad4 https://t.co/7iTZSdZCoY,2303751216
-22,2022-11-18T19:23:25.000Z,['1593686332232339456'],1593686332232339456,How a data processing error changed our Deluxe forecast https://t.co/TnOXIvqRR3,2303751216
-23,2022-11-18T19:20:05.000Z,['1593685494285578241'],1593685494285578241,Among @maggiekb1's tips for explaining election results: Don’t eat that hot take until dinner is done cooking https://t.co/friFLrASpz,2303751216
-24,2022-11-18T18:47:02.000Z,['1593677176519507970'],1593677176519507970,"In the month before the election, multiple major media outlets reported that voters’ outrage over the Supreme Court’s June decision overruling Roe v. Wade was fading. 
+,text,created_at,author_id,id,edit_history_tweet_ids
+0,"Whether the first six months of 2022 have felt interminable or fleeting—massive hacks, data breaches, digital scams, and ransomware attacks continued apace throughout the first half of this complicated year. https://t.co/FdmbXQSPlt",2022-11-24T07:34:23.000Z,1344951,1595682225202274305,['1595682225202274305']
+1,Company executives have repeatedly claimed that Amazon's warehouse robots improve worker safety. But company records show that between 2016 and 2019 serious injuries occurred more often in Amazon warehouses with robots than those without them: https://t.co/6p6LOeUTqI,2022-11-24T06:33:20.000Z,1344951,1595666862175621121,['1595666862175621121']
+2,For All Mankind' does what the best science fiction has always done: humanize all the abstract ideas that serve as the genre’s foundation. https://t.co/WLTIytLSjq,2022-11-24T05:33:37.000Z,1344951,1595651833049276417,['1595651833049276417']
+3,"“I wouldn’t quite call it spyware. It’s more like ‘shameware,’ and it’s just another way the church controls you.” 
 
-But abortion was always going to impact the midterms. https://t.co/q8zhrn6GeP",2303751216
-25,2022-11-18T18:08:05.000Z,['1593667374150221824'],1593667374150221824,"The vast majority of 2020 election-denying candidates who lost their races this year have conceded, but this is not necessarily a sign that American politicians are ready to leave election fraud conspiracy theories behind. https://t.co/PLMPTnsqaZ",2303751216
-26,2022-11-18T17:32:03.000Z,['1593658306899324928'],1593658306899324928,The Bengals are following last year's script. But will their turnaround be the same? https://t.co/Z36FvJ8y6A,2303751216
-27,2022-11-18T17:15:05.000Z,['1593654036112506881'],1593654036112506881,Our 2022-23 NHL predictions: https://t.co/rzAQ3cI4pY,2303751216
-28,2022-11-18T16:44:04.000Z,['1593646231070425088'],1593646231070425088,The midterms made state governments bluer https://t.co/pyPpxYLYK9,2303751216
-29,2022-11-18T16:20:06.000Z,['1593640200688779265'],1593640200688779265,"Will Trump win the Republican nomination, much less the presidency? https://t.co/1JccU5XwYS https://t.co/Pvyi45OC7d",2303751216
-30,2022-11-18T16:00:10.000Z,['1593635184229765121'],1593635184229765121,"When it comes to explaining election outcomes, reality is usually messier than a just-so story. https://t.co/jYRPkoT9w9",2303751216
-31,2022-11-18T15:40:07.000Z,['1593630137009971207'],1593630137009971207,How many turkey trotters can you pass? https://t.co/ZNWiRldQTe,2303751216
-32,2022-11-18T15:17:04.000Z,['1593624338036674560'],1593624338036674560,"Lauren Boebert’s race may have been overlooked, particularly by pollsters and Republicans who saw her as a shoo-in. https://t.co/n0dBRe6ZU9",2303751216
-33,2022-11-18T15:14:11.000Z,['1593623611763724296'],1593623611763724296,"Yesterday, nearly every county in Colorado’s 3rd District finalized its unofficial vote totals. That cut Republican Lauren Boebert’s lead to 551 votes, which is close enough to trigger an automatic recount. https://t.co/AybKqk1IfV",2303751216
-34,2022-11-18T14:56:41.000Z,['1593619207026925568'],1593619207026925568,"Election denialism lives on, even as candidates who support it concede https://t.co/4GyAZfjwyU",2303751216
-35,2022-11-18T14:24:22.000Z,['1593611074141421570'],1593611074141421570,The New Jersey Devils are scorching the NHL again https://t.co/3K3Aar6P7Q,2303751216
-36,2022-11-18T13:42:03.000Z,['1593600424358969344'],1593600424358969344,Congress will have the most Black Republicans in over a century — but that’s not saying a lot.  https://t.co/sFZQmL7sI7,2303751216
-37,2022-11-18T01:39:01.000Z,['1593418467041898496'],1593418467041898496,Even the weakest group this year is strong by historical standards. https://t.co/hJVQV28NyY,2303751216
-38,2022-11-18T01:31:08.000Z,['1593416483689971712'],1593416483689971712,"Our updating calculation of the president's approval rating accounts for each poll's quality, recency, sample size and partisan lean. https://t.co/ADZdedmNAz",2303751216
-39,2022-11-18T00:51:04.000Z,['1593406399022829568'],1593406399022829568,"Despite all the negatives, Cincinnati does have nearly a coin-flip’s chance to make it back to the postseason. https://t.co/btmujoG2iG",2303751216
-40,2022-11-18T00:20:05.000Z,['1593398602994442240'],1593398602994442240,"While many perceived the economy as a more pressing concern generally, abortion was a motivating issue for a substantial number of voters in this election — and their enthusiasm may have helped give Democrats an edge. https://t.co/8ENK628M7I",2303751216
-41,2022-11-17T23:45:01.000Z,['1593389778266775552'],1593389778266775552,Our NFL predictions: https://t.co/0iEFhQ83DA,2303751216
-42,2022-11-17T23:19:05.000Z,['1593383250382454784'],1593383250382454784,"After Democrats’ victories in state-level elections last week, landmark liberal policies could be coming to a state near you. https://t.co/iY8aiUKu2O",2303751216
-43,2022-11-17T22:48:03.000Z,['1593375440189722633'],1593375440189722633,"Colorado as a whole was hit with a blue wave this election, which washed out even into Lauren Boebert’s red district. https://t.co/1nCAqNXjkz",2303751216
-44,2022-11-17T22:12:02.000Z,['1593366379847356416'],1593366379847356416,"Brazil is the favorite and Messi is the star, but the 2022 World Cup is up for grabs https://t.co/7uo2SP7zZb",2303751216
-45,2022-11-17T21:42:05.000Z,['1593358841521262593'],1593358841521262593,Does trading for an NBA star work? It's complicated. https://t.co/PuBWpik4HU,2303751216
-46,2022-11-17T21:17:02.000Z,['1593352538656415744'],1593352538656415744,"Abortion-rights supporters managed to enshrine the right to abortion in three state constitutions, including the crucial state of Michigan, where a near-total ban on abortion from 1931 has been tangled up in court battles for months. https://t.co/cuVsISyRaD",2303751216
-47,2022-11-17T20:36:03.000Z,['1593342224968081408'],1593342224968081408,Voter turnout was high again. Is this the new normal? https://t.co/zrqObkpemG,2303751216
-48,2022-11-17T20:33:07.000Z,['1593341485570818049'],1593341485570818049,"The best NFL receivers, according to ESPN analytics: https://t.co/BSZjrElYSk",2303751216
-49,2022-11-17T20:00:17.000Z,['1593333223328727041'],1593333223328727041,How our 2022 World Cup predictions work: https://t.co/n4uBBGFXLK,2303751216
-50,2022-11-17T19:17:02.000Z,['1593322339789307905'],1593322339789307905,"The first, and likely most difficult, task for the Bengals is winning during their tough slate of upcoming games. https://t.co/0LuqlRoNgc",2303751216
-51,2022-11-17T18:45:12.000Z,['1593314326156296192'],1593314326156296192,Why Lauren Boebert's race is so close https://t.co/3nRHFWNke9,2303751216
-52,2022-11-17T18:40:07.000Z,['1593313048562962440'],1593313048562962440,The midterms made state governments bluer https://t.co/CYVBG8bK4L,2303751216
-53,2022-11-17T18:13:30.000Z,['1593306350083346432'],1593306350083346432,Speaker of the House Nancy Pelosi announced she would not seek reelection to Democratic leadership in the next Congress. This means House Democrats will have a new leader for the first time in 20 years. https://t.co/Of3BxsIsJf,2303751216
-54,2022-11-17T18:11:04.000Z,['1593305735592804352'],1593305735592804352,"Despite talk of inflation overtaking abortion as a priority, the percentage of Americans who ranked it among their top concerns remained pretty steady throughout the fall. https://t.co/XJo6IKVisf",2303751216
-55,2022-11-17T17:39:03.000Z,['1593297678196015104'],1593297678196015104,Kyrie Irving's stats aren't worth the drama https://t.co/LsXRrb8whl,2303751216
-56,2022-11-17T17:20:09.000Z,['1593292922912493572'],1593292922912493572,Say hello to our World Cup predictions 👋 https://t.co/FVMuIneXIr,2303751216
-57,2022-11-17T17:00:09.000Z,['1593287890733355009'],1593287890733355009,From @NateSilver538: Why DeSantis is a major threat to Trump’s reelection https://t.co/0n69GQMZWz,2303751216
-58,2022-11-17T16:40:11.000Z,['1593282864736509955'],1593282864736509955,"Will Trump win the Republican nomination, much less the presidency? https://t.co/D3D5XlQrqP",2303751216
-59,2022-11-17T16:38:21.000Z,['1593282403614838787'],1593282403614838787,"After two record-shattering elections for women in Congress, it was female governors’ turn this year. https://t.co/UgyLkR2jVN",2303751216
-60,2022-11-17T16:15:40.000Z,['1593276694005133312'],1593276694005133312,The start of the tournament comes with plenty of questions about who might lift soccer’s most prestigious trophy. https://t.co/25WNJTf0Hf,2303751216
-61,2022-11-17T15:31:13.000Z,['1593265510141104134'],1593265510141104134,"For the first time in years, more Americans will live in a state fully controlled by Democrats than in one fully controlled by Republicans. https://t.co/IhCPw6uA2p",2303751216
-62,2022-11-17T15:10:33.000Z,['1593260307492790272'],1593260307492790272,The Bengals are following last year's script. But will their turnaround be the same? https://t.co/P1nczjpM6C,2303751216
-63,2022-11-17T14:40:06.000Z,['1593252646869434369'],1593252646869434369,"In the month before the election, multiple major media outlets reported that voters’ outrage over the Supreme Court’s June decision overruling Roe v. Wade was fading. 
+Churches are using invasive phone-monitoring tech to discourage “sinful” behavior. Some software is seeing more than congregants realize. https://t.co/tRCG8eT22E",2022-11-24T04:32:22.000Z,1344951,1595636420961599489,['1595636420961599489']
+4,"#BlackFriday is almost here, so when it comes to finding the best deals on holiday gifts, there's no time like the present! 🎁
 
-But abortion was always going to impact the midterms. https://t.co/Su8eFESQBn",2303751216
-64,2022-11-17T14:15:48.000Z,['1593246529795817474'],1593246529795817474,"Lauren Boebert’s race may have been overlooked, particularly by pollsters and Republicans who saw her as a shoo-in. https://t.co/MV0YNTCguM",2303751216
-65,2022-11-17T00:50:09.000Z,['1593043780483317761'],1593043780483317761,"As expected, Republicans have taken control of the U.S. House of Representatives, ending two years of Democratic rule in Washington, D.C. ABC News estimates that Republicans have won at least 218 seats and Democrats have won at least 210. https://t.co/YcHKePXgWF",2303751216
-66,2022-11-16T19:09:41.000Z,['1592958101858111488'],1592958101858111488,"Brazil is the favorite and Messi is the star, but the 2022 World Cup is up for grabs. https://t.co/VzpVqPqakm",2303751216
-67,2022-11-16T18:52:29.000Z,['1592953772678197250'],1592953772678197250,"🥁
-🥁
-🥁
-🥁
-🥁
-🥁
-🥁
-🥁
-🥁
-🥁
+Join the WIRED Deals Facebook Group for a curated feed of the best Black Friday deals straight from our Gear Team: https://t.co/gtxXaKTL3X https://t.co/n6ldQVbgGw",2022-11-24T03:31:05.000Z,1344951,1595620998333988864,['1595620998333988864']
+5,"Studies show that using ‘green’ ammonia for fertilizer, fuel, and heat could drive down farming’s carbon footprint by as much as 90 percent https://t.co/x6hGXhhB1y",2022-11-24T02:20:57.000Z,1344951,1595603347641630720,['1595603347641630720']
+6,"As a young Black woman, @ruha9 saw her pregnancy treated like a problem. So she ditched the doctors for home delivery and found an alternative model for health care: https://t.co/Wv9ClmTV1o",2022-11-24T01:33:04.000Z,1344951,1595591295837290499,['1595591295837290499']
+7,"This frog-legged leaf beetle means business. This haunting shot was an image of distinction at this year's Small World Photomicrography Competition.
 
---
+📸: Yousef Al Habshi https://t.co/L2bfDfrrAV",2022-11-24T01:00:41.000Z,1344951,1595583145923203072,['1595583145923203072']
+8,"Whether you're running trails for hours at a time or just want a reminder to stand up once an hour, our Gear team has sourced a fitness tracker that's right for you. https://t.co/wfXRjEAd1m",2022-11-24T00:33:04.000Z,1344951,1595576197731454976,['1595576197731454976']
+9,These predictive analytics are conquering more and more spheres of life. And yet no one has asked your permission to make such forecasts. (From 2021) https://t.co/TjQx2GcqW4,2022-11-24T00:03:04.000Z,1344951,1595568647543693313,['1595568647543693313']
+10,Is this what a Thanksgiving table should look like? We have some opinions about that. (From 2018) https://t.co/HFVJmu8L7R,2022-11-23T23:33:03.000Z,1344951,1595561095095373827,['1595561095095373827']
+11,"To help you figure out the best tent for your next adventure, we've pooled our favorites from years of testing—whether you're getting away for the weekend with the family or soloing Mount Whitney. https://t.co/JvAkQ4RZur",2022-11-23T23:03:03.000Z,1344951,1595553545968705536,['1595553545968705536']
+12,"To mark the 60th anniversary of the Bond franchise, two new Omegas have been released that mechanically animate 007’s iconic opening sequence. https://t.co/PbzRo1HV3U",2022-11-23T22:32:07.000Z,1344951,1595545757599277057,['1595545757599277057']
+13,Now is the time to create your own content. These tools can help you get great audio and video quality from the start. https://t.co/JhPhuCfXwG,2022-11-23T22:01:03.000Z,1344951,1595537942646517760,['1595537942646517760']
+14,"To help you save money, we've hunted down discounts on all our favorite Apple gadgets, and more, from third-party retailers. These are the best Apple #BlackFriday deals around. https://t.co/QP0t4Vv2Yp",2022-11-23T21:33:06.000Z,1344951,1595530905661104128,['1595530905661104128']
+15,"Our reviewer was admittedly skeptical of Microsoft's claims about the Xbox Game Pass Ultimate. But buying a steady stream of games for you and your family gets real expensive, real fast. 
 
-Our 2022 World Cup Predictions: https://t.co/tGwViJkKj1",2303751216
-68,2022-11-16T18:27:06.000Z,['1592947382991429633'],1592947382991429633,How our 2022 World Cup predictions work: https://t.co/2t6OccYjRH,2303751216
-69,2022-11-16T18:07:06.000Z,['1592942349784698881'],1592942349784698881,A historic number of women will be governors next year. https://t.co/391F8JVFWu,2303751216
-70,2022-11-16T17:47:18.000Z,['1592937369434525697'],1592937369434525697,Why DeSantis is a major threat to Trump’s reelection: https://t.co/bIgMVlvQVd,2303751216
-71,2022-11-16T16:45:02.000Z,['1592921696251650049'],1592921696251650049,Does trading for an NBA star work? It's complicated. https://t.co/9vp5bjTFTF,2303751216
-72,2022-11-16T04:16:07.000Z,['1592733226933653504'],1592733226933653504,Re: Trump. https://t.co/M1zy58HqQO https://t.co/hci417vlAK,2303751216
-73,2022-11-16T02:41:21.000Z,['1592709377189986306'],1592709377189986306,Why Trump is favored to win the 2024 Republican presidential primary —&gt; https://t.co/ZxpLO5yJdU,2303751216
-74,2022-11-16T01:03:02.000Z,['1592684636869603329'],1592684636869603329,"Our updating calculation of the president's approval rating accounts for each poll's quality, recency, sample size and partisan lean. https://t.co/dq6GINLxCZ",2303751216
-75,2022-11-16T00:40:02.000Z,['1592678848025751552'],1592678848025751552,Congress will have the most Black Republicans in over a century — but that’s not saying a lot.  https://t.co/fdGiUlfXW0,2303751216
-76,2022-11-16T00:20:02.000Z,['1592673814563139584'],1592673814563139584,Our NBA predictions: https://t.co/dcazQkVmk3,2303751216
-77,2022-11-15T23:38:03.000Z,['1592663250210295808'],1592663250210295808,Is the United States in an era of high voter turnout? https://t.co/73ZrBgqmda,2303751216
-78,2022-11-15T23:20:03.000Z,['1592658719195676674'],1592658719195676674,"The best NFL receivers, according to ESPN analytics: https://t.co/pFnpkaRrcs",2303751216
-79,2022-11-15T22:20:05.000Z,['1592643627532095491'],1592643627532095491,"Justin Jefferson grabbed some footballs, and the Vikings grabbed some respect https://t.co/73sA6FlLGt",2303751216
-80,2022-11-15T21:30:15.000Z,['1592631087854854145'],1592631087854854145,We went back and calculated which school was King of Texas every year since 1902. https://t.co/syYdA0IsZz,2303751216
-81,2022-11-15T20:37:03.000Z,['1592617697350664197'],1592617697350664197,Our NFL predictions: https://t.co/de9Yur3YRG,2303751216
-82,2022-11-15T20:31:07.000Z,['1592616204006346752'],1592616204006346752,"Turnout surged during the last midterm elections in 2018 when 49 percent of eligible voters cast a ballot for the highest office in their state, according to data analyzed by the U.S. Elections Project. 
+It's safe to say he's a convert. https://t.co/eeUno41hmU
 
-Early signs point to similar turnout in 2022. https://t.co/IQIO1wjNe7",2303751216
-83,2022-11-15T19:39:06.000Z,['1592603117363036160'],1592603117363036160,"We discuss how partisan pollsters over-projected Republican gains, why Democrats beat historical trends in the midterms and more: https://t.co/jgvkSTZNzF",2303751216
-84,2022-11-15T19:00:28.000Z,['1592593394966183939'],1592593394966183939,"When the new Congress comes into session in January, there will be more Black Republicans serving together on Capitol Hill than at any point since 1877.
+📸 Microsoft https://t.co/j80XKtZY4X",2022-11-23T21:00:29.000Z,1344951,1595522698553470977,['1595522698553470977']
+16,"We dove, climbed, surfed, and handed these cameras to reckless 10-year-olds on bikes to figure out which cameras could hold up. We found a number of great options that will record, and survive, your future adventures. https://t.co/7pxfHyg8FC",2022-11-23T20:35:06.000Z,1344951,1595516310787887104,['1595516310787887104']
+17,These are our favorite (and least favorite) mattresses right now. #WIREDRecommends https://t.co/c4LyueStc4,2022-11-23T20:33:04.000Z,1344951,1595515800474877953,['1595515800474877953']
+18,"Join us for Cybercrime Monday on Twitter Spaces on November 28 at 9am PT / Noon ET for a discussion with @a_greenberg, WIRED journalist &amp; author of the new book Tracers In The Dark: The Global Hunt For The Crime Lords Of Cryptocurrency.
 
-The number? Five. https://t.co/ocNZHpNacR",2303751216
-85,2022-11-15T18:33:08.000Z,['1592586512700510209'],1592586512700510209,.@NateSilver538 breaks down the odds for the upcoming Georgia runoff election: https://t.co/MLiprs7ZmC,2303751216
-86,2022-11-15T17:44:06.000Z,['1592574174555430912'],1592574174555430912,Bookmark our uncalled races live blog to keep up with the latest election updates: https://t.co/5jbx1FeM4B,2303751216
-87,2022-11-15T17:20:09.000Z,['1592568148947271680'],1592568148947271680,"Sure, TCU could make the playoff. But more importantly, it earned Texas football bragging rights. https://t.co/3mLKq2oQsr",2303751216
-88,2022-11-15T16:53:29.000Z,['1592561435531517953'],1592561435531517953,Voter turnout was high again. Is this the new normal? https://t.co/L6uLSe6MN5,2303751216
-89,2022-11-15T16:06:50.000Z,['1592549694751707136'],1592549694751707136,"As things stand, Republicans have won 215 House seats compared with 207 for Democrats, according to @ABC News estimates, putting Republicans just three seats short of a majority-clinching 218. https://t.co/5jbx1EXaG1",2303751216
-90,2022-11-15T15:50:05.000Z,['1592545481296584704'],1592545481296584704,Even the weakest group this year is strong by historical standards. https://t.co/lbgUOuRdf1,2303751216
-91,2022-11-15T15:27:47.000Z,['1592539871369138181'],1592539871369138181,".@ABC News reports that Republican Juan Ciscomani is projected to win Arizona’s 6th District. 
+Sign up here: https://t.co/pHAZST0iyw https://t.co/hN9X2T8WSg",2022-11-23T20:15:10.000Z,1344951,1595511295733743616,['1595511295733743616']
+19,The backlash against food processing is a luxury that the world can’t afford to embrace. https://t.co/dPXsPpnIig,2022-11-23T20:04:02.000Z,1344951,1595508492626010112,['1595508492626010112']
+20,"WIRED
+Crystal clear 4K video. No subscription needed. Local storage (16 GB built in, expandable up to 16 TB). Two-way audio. People, pet, and vehicle detection. 
 
-That puts the GOP at 215 House seats — just three shy of a majority. https://t.co/ZiplhR2u9H",2303751216
-92,2022-11-15T15:14:08.000Z,['1592536435198144512'],1592536435198144512,The fact that electing five or six Black Republicans to Congress is a feat worth discussing is reflective of how the party continues to struggle with Black voters. https://t.co/QGiMGnUFcy,2303751216
-93,2022-11-15T14:39:44.000Z,['1592527776439218176'],1592527776439218176,Denying the 2020 election wasn’t a winning strategy for political newcomers https://t.co/LSu8nimylf,2303751216
-94,2022-11-15T14:16:26.000Z,['1592521911765913600'],1592521911765913600,Politics Podcast: Why Democrats beat historical trends in 2022 https://t.co/evfr1x6AJt,2303751216
-95,2022-11-15T01:29:02.000Z,['1592328791904423939'],1592328791904423939,"The best NFL receivers, according to ESPN analytics: https://t.co/yeJ0WhsYyo",2303751216
-96,2022-11-15T00:45:06.000Z,['1592317734725074946'],1592317734725074946,The Colts hired Jeff Saturday as head coach. We have questions. https://t.co/0AyLajPqaJ,2303751216
-97,2022-11-14T23:43:02.000Z,['1592302114083991553'],1592302114083991553,"While many factors have influenced the midterm results, the overall trend suggests that playing to voters who deny the results of the 2020 election wasn’t a winning strategy by itself. https://t.co/ezTOuCXI2p",2303751216
-98,2022-11-14T22:45:10.000Z,['1592287550814789634'],1592287550814789634,Our NBA predictions: https://t.co/xhAfM9epHk,2303751216
-99,2022-11-14T22:10:04.000Z,['1592278720747667457'],1592278720747667457,It's clear that the end of Roe v. Wade turned abortion access into one of the most salient issues in the country — which means you’re going to be hearing a lot more about it as the 2024 presidential campaign creaks into gear. https://t.co/YkfxBlqrbF,2303751216
+TIRED
+Expensive. Hub must be connected to your router via Ethernet cable. https://t.co/wovFKFs0VH",2022-11-23T19:31:11.000Z,1344951,1595500226542198784,['1595500226542198784']
+21,"The internet is the most technically complex system humanity has ever built. Jim Kurose, Professor at UMass Amherst, has been challenged to explain the internet to 5 different people; a child, a teen, a college student, a grad student, and an expert. https://t.co/88kzegR0pY",2022-11-23T19:00:09.000Z,1344951,1595492415434997760,['1595492415434997760']
+22,"We've tested tons of cheap laptops, and for everyday tasks these will do everything you ask of them—and leave some money in your bank account. https://t.co/ZaH5NOhM4u",2022-11-23T18:30:17.000Z,1344951,1595484898911203329,['1595484898911203329']
+23,"Elon Musk can’t change Twitter’s history of poor security, or the fact that it has to deal with close scrutiny from the FTC for the next 20 years. https://t.co/oJjqI3S31s",2022-11-23T18:02:09.000Z,1344951,1595477818938269696,['1595477818938269696']
+24,"WIRED
+Anti-pinch safety features. Nearly silent. Stellar odor control. Roomy drum and large waste drawer. No scooping! 
+
+TIRED
+Expensive. Automatic boxes can still be risky. Needs to be near an outlet. Not all cats will use it.
+https://t.co/U7LP85wX5W",2022-11-23T17:29:04.000Z,1344951,1595469496172437505,['1595469496172437505']
+25,"Hive Social is the newest viral Twitter alternative. If you want to experience what all the buzz is about, here’s how to join, and a few tips for new users. https://t.co/SteTk5wCfJ",2022-11-23T17:02:06.000Z,1344951,1595462708840701953,['1595462708840701953']
+26,Picking a VPN is serious business. Each VPN provider on this list has been independently audited by security firms and published the results. https://t.co/ZGQfLDaKsu,2022-11-23T16:31:03.000Z,1344951,1595454892893536257,['1595454892893536257']
+27,"WIRED
+Lightweight and easy to maneuver. Single-button power control. More suction than its predecessor. Useful LCD screen. Comes with a variety of handy attachments including the laser slim brush.
+
+TIRED
+Expensive. Small canister. https://t.co/cg3qUtcbcr",2022-11-23T16:03:05.000Z,1344951,1595447856164646913,['1595447856164646913']
+28,"Wondering how to switch iPhones or iPads successfully, without losing anything in the process? We've outlined the steps below. https://t.co/sAI31VAHgB",2022-11-23T15:33:08.000Z,1344951,1595440318157291521,['1595440318157291521']
+29,"WIRED has challenged #origami artist and physicist Robert J. Lang to explain origami to 5 different people; a child, teen, a college student, a grad student and an expert: https://t.co/dzqCP6QlYp",2022-11-23T15:00:02.000Z,1344951,1595431990534234117,['1595431990534234117']
+30,"Clearly, more environmentally friendly approaches to pest control are needed, and there’s one solution that could be about to hit the big time: targeting these pests’ sex drives. Via @WIREDUK https://t.co/SvPtKuObq7",2022-11-23T14:28:06.000Z,1344951,1595423952540680193,['1595423952540680193']
+31,"If you’re an Apple user who finds the AirTag’s awesome locating powers to be a little scary—or if you find them hard to attach to your wallet—the Card Spot is the natural pick, and it's much safer. https://t.co/EDZ0ZKZvLQ",2022-11-23T14:04:02.000Z,1344951,1595417897614315522,['1595417897614315522']
+32,"Millions of new saplings sprouting each year might seem like a good thing. But in reality, their spread across vulnerable grasslands and shrublands is upending ecosystems and livelihoods.  Via @WIREDUK https://t.co/oEgWvRtZOL",2022-11-23T13:26:02.000Z,1344951,1595408334387286016,['1595408334387286016']
+33,"The days of having a separate tea brewer, thermos, and mug are over, says our reviewer. Once you go for Tea Spot's Mountain Tea tumbler, you might never go back: https://t.co/OYPdBhFmLT
+
+📸: The Tea Spot https://t.co/GC5nq74ahe",2022-11-23T13:00:10.000Z,1344951,1595401824059920385,['1595401824059920385']
+34,"Best Buy has posted tons of early Black Friday deals ahead of schedule. If you see one you like, jump on it now rather than waiting for Thanksgiving to pass you by.  #BlackFriday https://t.co/I8TvPSS29w",2022-11-23T12:28:04.000Z,1344951,1595393747285692422,['1595393747285692422']
+35,"“People are using it. And it’s not just people shouting into a void, either. People are engaging.”  Amid Twitter chaos and Donald Trump’s 2024 presidential bid, Truth Social is having a moment of its own. https://t.co/l4xZ9BhqkV 
+🎨: James Marshall https://t.co/m1EmmCHfGO",2022-11-23T12:04:06.000Z,1344951,1595387713682743297,['1595387713682743297']
+36,"Dive into 2023 with predictions from Jennifer Doudna, Ellen MacArthur and more. The WIRED World 2023 is your exclusive guide to the year ahead. 
+
+Click here to grab your copy: https://t.co/rV6xJQuho5
+
+🎨: Oliver Hazelwood https://t.co/NaNNJw2BRi",2022-11-23T11:27:03.000Z,1344951,1595378389656870918,['1595378389656870918']
+37,What do you get for the person who has everything? Read this article to find out. https://t.co/GWYyvjmJR4,2022-11-23T10:35:05.000Z,1344951,1595365312370614272,['1595365312370614272']
+38,"Ebooks can be tools for learning, escaping or both. https://t.co/MZFucU64tS",2022-11-23T10:04:02.000Z,1344951,1595357499133149187,['1595357499133149187']
+39,"Researchers have found that at the base of Antarctica’s ice, an area the size of Germany and France combined is feeding meltwater into a super-pressurized, 290-mile-long river running to the sea. It could be terrible news for sea level rise: https://t.co/Nl1DfauTwO
+
+📸: Getty https://t.co/zXKTYyzxI3",2022-11-23T09:01:00.000Z,1344951,1595341635961131010,['1595341635961131010']
+40,"#Andor star Diego Luna (@diegoluna_) ""can't wait"" for fans to see the show's second season. https://t.co/COXIWTiJ2o 
+📷: Lucasfilm Ltd. &amp; TM https://t.co/xc9otAMFPW",2022-11-23T08:04:06.000Z,1344951,1595327313750953984,['1595327313750953984']
+41,"Keith Masback, former Director of Intelligence, Surveillance, &amp; Reconnaissance Integration for the US Army, provides a few tips &amp; tricks for what people like him are generally looking for in satellite imagery.  
+Made in collaboration with @IntlSpyMuseum https://t.co/qSFYyt7BL1",2022-11-23T07:00:01.000Z,1344951,1595311190133071872,['1595311190133071872']
+42,"Your trusty PS4 has served you well for years. Should you really just toss it aside and sell it? It turns out it might have more value to you repurposed than it would on the market. 
+
+Here's how to bring glory back to your PS4: https://t.co/z3eJt4PUdb",2022-11-23T06:59:28.000Z,1344951,1595311049384902658,['1595311049384902658']
+43,"Researchers found a cloud infrastructure error in 1,859 publicly available apps on both Android and iOS. It could provide access to private files.  https://t.co/0OuYKVjZqE",2022-11-23T06:01:22.000Z,1344951,1595296427332505600,['1595296427332505600']
+44,The hardest part about having a chronic illness is its key characteristic: it’s lifelong. But apps can empower patients to improve their health. https://t.co/M0l3qtnULM,2022-11-23T05:01:40.000Z,1344951,1595281404300066816,['1595281404300066816']
+45,These are our favorite massage guns. https://t.co/hJthXVd2ws,2022-11-23T04:01:05.000Z,1344951,1595266160181870595,['1595266160181870595']
+46,"These accessories are affordable, and they make great gifts too. https://t.co/oFAmp1HZ2C",2022-11-23T03:34:04.000Z,1344951,1595259361726631937,['1595259361726631937']
+47,The right pair of wireless headphones can make or break your day. The only problem is that there are so many to choose from. WIRED's Gear team is here to help. https://t.co/wwbaJfoBnr,2022-11-23T03:02:05.000Z,1344951,1595251312727412736,['1595251312727412736']
+48,"Dr. Michio Kaku, a professor of theoretical physics, answers the internet's burning questions about physics. Can Michio explain ""string theory"" to the layperson? What is a quark? How do black holes distort time? Michio answers all these questions and more: https://t.co/TNCDgYPjPO",2022-11-23T03:00:03.000Z,1344951,1595250798707048448,['1595250798707048448']
+49,"Digital picture frames are nice to have around the house, and they also make great gifts. https://t.co/T4sZpEdCM5",2022-11-23T02:31:06.000Z,1344951,1595243514782171136,['1595243514782171136']
+50,"Feet were made to stretch, flex, roll, and bend, and letting them do what they evolved to do can reduce impact injuries and provide a host of other benefits. https://t.co/hAZWliGCzW",2022-11-23T02:02:04.000Z,1344951,1595236206291320833,['1595236206291320833']
+51,"Slowly but steadily, ubiquitous biometric technology systems have come to represent a new normal for stadium infrastructure in which “health securitization” is incorporated into systems for public safety and marketing. https://t.co/zDKIMLhISN",2022-11-23T01:32:07.000Z,1344951,1595228669852766209,['1595228669852766209']
+52,"Sometimes you don't realize what you’ve been missing out on until it finally happens. For our writer, it was hearing their Chinese mother tell them she loved them for the first time—at 39 years old.
+
+A language translation app helped make that possible: https://t.co/YoKrRnySGs https://t.co/NCyQQeT9Sa",2022-11-23T01:00:41.000Z,1344951,1595220757617184769,['1595220757617184769']
+53,"Twitter, which no longer has any communications staff after the recent layoffs, did not respond to a request for comment. https://t.co/omZn6Qsg17",2022-11-23T00:32:06.000Z,1344951,1595213564721397760,['1595213564721397760']
+54,Truly no supply chain was safe from the ravages of pandemic-imposed chaos and logjams. Not even those that supply America's legion of bomb-sniffing puppers. https://t.co/IBD4k9eO2Q,2022-11-23T00:02:05.000Z,1344951,1595206013921030144,['1595206013921030144']
+55,"Are robots destined to take our jobs? Actually, evidence indicates that we can influence how new technology is employed within our factories and offices—if we can only figure out how to wield this power. https://t.co/GKJjUKBK8j",2022-11-22T23:34:05.000Z,1344951,1595198965041008641,['1595198965041008641']
+56,"There’s never a bad time to invest in a little extra self-care. These are some of our favorite sex toys, vibrators, smart vibrators, personal wand massagers, and accessories, all of which we’ve personally tested. https://t.co/F0Hp9tVBc1",2022-11-22T23:03:03.000Z,1344951,1595191155297505280,['1595191155297505280']
+57,"""A disaster, I used to believe, calls for a hero. Maybe that hero could even be me, a bike-addicted mom of two"". https://t.co/kE2uaEbfXZ",2022-11-22T22:33:07.000Z,1344951,1595183624923406336,['1595183624923406336']
+58,These steps will make it easier to get your data back if something bad happens. https://t.co/JoqkFji7Km,2022-11-22T22:03:03.000Z,1344951,1595176055236661250,['1595176055236661250']
+59,"Once you get on the smart bulb train, you'll never go back. https://t.co/QrHylaNnLM",2022-11-22T21:34:04.000Z,1344951,1595168763275579418,['1595168763275579418']
+60,"Shopping for a PC gamer is a perilous endeavor. But what is a PC gamer but an adventurer—a reclusive one, perhaps, but an adventurer nonetheless! And this guide can help: https://t.co/DgiG5DFQ6G
+
+📸: HyperX https://t.co/Xc1066gJDo",2022-11-22T21:00:32.000Z,1344951,1595160323098804224,['1595160323098804224']
+61,The question of whether an AI program might become sentient has been debated for decades. Now a Google engineer says one of its AI programs has done just that: https://t.co/nQnynTG9HR,2022-11-22T20:32:03.000Z,1344951,1595153156937244672,['1595153156937244672']
+62,"Follow the untold story of the biggest dark web market takedown of all time with exclusive commentary from senior writer Andy Greenberg (@a_greenberg) by subscribing to a limited series of six newsletters. 
+
+Sign up here: https://t.co/ueoWqyG79g https://t.co/InyaYndwGX",2022-11-22T20:12:03.000Z,1344951,1595148121755226112,['1595148121755226112']
+63,"Critics of Google Scholar say it subjects trans academics and researchers to deadnaming, the unwelcome and even traumatic mention of a transgender person’s name from before they transitioned. https://t.co/0qlKmaSTKt",2022-11-22T20:01:02.000Z,1344951,1595145349424988183,['1595145349424988183']
+64,"WIRED
+Simple. Light. Fun to ride! Clean design—no exposed cables. Comes with all the fixin’s, like a bell, lights, kickstand, and rear rack. 
+
+TIRED
+No LCD display or throttle. No fancy features like a belt drive or continuously variable transmission. https://t.co/RsrOEHfFHV",2022-11-22T19:32:03.000Z,1344951,1595138057153527811,['1595138057153527811']
+65,https://t.co/snouCSgZeT,2022-11-22T19:29:09.000Z,1344951,1595137326463623168,['1595137326463623168']
+66,Robotics professor @hadmoni answers the internet's burning questions about robots! https://t.co/wmnuoUnEME,2022-11-22T19:00:03.000Z,1344951,1595130003707920385,['1595130003707920385']
+67,"FTX might be doomed, but a small group of volunteers believes that Serum, Sam Bankman-Fried’s other crypto exchange, is worth saving. https://t.co/rQjRKFnGWy",2022-11-22T18:39:03.000Z,1344951,1595124719019343880,['1595124719019343880']
+68,"Using five years’ worth of data, a team led by scientists at Colorado State University confirmed a long-suspected link between ambient air quality and racial residential segregation. https://t.co/v4cvx59TiL",2022-11-22T18:05:06.000Z,1344951,1595116175687823360,['1595116175687823360']
+69,Yes—this wireless whipper performs just as well as its corded counterparts. But do you really need to cut the cord on your hand mixer?  https://t.co/Ta27EAthtp,2022-11-22T17:30:17.000Z,1344951,1595107411571998724,['1595107411571998724']
+70,"WIRED
+A contemporary new look. Fine for basic productivity needs. Good battery life. Pleasingly portable. 
+
+TIRED
+Frustrating performance. “Infinity Edge” is gone in all but name. Underwhelming keyboard and trackpad. Patchy key backlighting. https://t.co/p2SvnXDAtc",2022-11-22T17:03:04.000Z,1344951,1595100564861628419,['1595100564861628419']
+71,"This is the MRI of a woman who was born missing a chunk of her brain. Doctors told her she should have seizures, or that she shouldn’t have a good vocabulary. But actually, her brain seemed to work perfectly fine: https://t.co/oIWdb2rxxT",2022-11-22T16:36:06.000Z,1344951,1595093776988573700,['1595093776988573700']
+72,Filmmaker Mode is meant to make movies look—as the name implies—like the filmmaker intended. https://t.co/t5x6OJPxjU,2022-11-22T16:02:06.000Z,1344951,1595085220604157958,['1595085220604157958']
+73,"WIRED
+Easy setup. Works seamlessly. Relatively low internet speed requirements. 
+
+TIRED
+$15 monthly subscription fee. Doesn't work as an audio interface offline. https://t.co/Z0SWf1xw1C",2022-11-22T15:26:03.000Z,1344951,1595076148526043137,['1595076148526043137']
+74,Click here to learn more: https://t.co/Q5oKxe3B8f,2022-11-22T15:06:36.000Z,1344951,1595071251844038662,['1595071251844038662']
+75,"Read the fifth installment of  ​​@a_greenberg’s unbelievable tale of the biggest dark web bust of all time, and sign up for our newsletter to receive the next three parts of the series weekly. https://t.co/OxMZkgehML 14/14",2022-11-22T14:54:47.000Z,1344951,1595068279047028737,['1595068279047028737']
+76,"Cazes attorney, Roger Bonakdar, immediately doubted the story that his client had killed himself, and he told Rabenn as much. Over the months that followed, he requested the video footage of Cazes' cell at the time of his death. He received neither. 13/14 https://t.co/JywsaYcDCd",2022-11-22T14:54:46.000Z,1344951,1595068276379422723,['1595068276379422723']
+77,"When Sanchez arrived at Cazes' cell, it appeared to be empty, but Thai officers were peering over the cell's internal 3-foot wall. She walked in and looked down: Cazes' body, hidden behind that wall, was sprawled across the cell's bathroom area. 12/14 https://t.co/f5NOjezskY",2022-11-22T14:54:45.000Z,1344951,1595068271589466112,['1595068271589466112']
+78,"During one late-night visit, this one on July 11, six days after his arrest, Cazes told Sanchez that he planned to escape—that a helicopter gunship was coming to break him out. Sanchez brushed it off as a joke. Then, the next day, the unthinkable happened. 11/14 https://t.co/8Kui14n4iz",2022-11-22T14:54:44.000Z,1344951,1595068266917117952,['1595068266917117952']
+79,"One DEA agent, Jen Sanchez was given the job of speaking with Cazes and persuading him to agree to extradition. She didn’t have the authority to offer much to Cazes in exchange for his cooperation. But she tried to show him kindness, to help him keep his spirits up. 10/14",2022-11-22T14:54:43.000Z,1344951,1595068262462754823,['1595068262462754823']
+80,"Following his arrest, Cazes was taken to a Thai police building, where prosecutors hoped to persuade him to sign an extradition agreement, allowing them to deport him from Bangkok without a lengthy legal battle—and more ambitiously, to make him an informant. 9/14",2022-11-22T14:54:42.000Z,1344951,1595068260789223424,['1595068260789223424']
+81,"Finally an agent nicknamed M broke free of the melee. His make-or-break assignment had arrived. He raced into the house, up the stairs, and into Cazes’ bedroom. There it was, on a cheap white desk: Cazes' laptop. It was open. 8/14 https://t.co/Xl6fDdUotp",2022-11-22T14:54:42.000Z,1344951,1595068258478182400,['1595068258478182400']
+82,"Cazes spun around, now in fight-or-flight mode, desperate to get back inside to his laptop. But one Thai officer and then another suddenly appeared, grabbing Cazes and wrestling him to the ground. 7/14",2022-11-22T14:54:41.000Z,1344951,1595068254099496960,['1595068254099496960']
+83,"For a few moments, Cazes tugged at the gate, trying to get it back on its rails. Then he saw that one of the undercover agents, who had been posing as an electrician, was now sprinting towards him and wearing a police vest. 6/14",2022-11-22T14:54:40.000Z,1344951,1595068252006514688,['1595068252006514688']
+84,"The undercover agent behind the wheel, doggedly playing her part, shouted—as loudly as possible, trying to project so that Cazes could hear inside the house—that she needed to pay for the damage. A few seconds later, the kingpin finally emerged out of the house. 5/14",2022-11-22T14:54:40.000Z,1344951,1595068249842286592,['1595068249842286592']
+85,"Police signaled for undercover agents to launch their plan: Crashing a Toyota Camry into his gate in an effort to lure him away from his laptop. Seconds later, a loud clang rang out across the cul-de-sac, Cazes’s wife came out of the house to assess the situation. 4/14",2022-11-22T14:54:39.000Z,1344951,1595068247971430400,['1595068247971430400']
+86,"But before the team in Lithuania could finish their work, they accidentally crashed the AlphaBay server. It was now only a matter of time before Cazes realized something was amiss. The moment he closed his laptop, triggering its encryption, the operation would be over. 3/14 https://t.co/17OIqywZ9K",2022-11-22T14:54:39.000Z,1344951,1595068245287272451,['1595068245287272451']
+87,"In a war-room across the city, agents and prosecutors monitored video-feeds of the scene. At the center of the long table was a conference phone connected to both the Thai team on the ground and another team of agents in Lithuania, tasked with imaging the AlphaBay server. 2/14",2022-11-22T14:54:38.000Z,1344951,1595068241260564480,['1595068241260564480']
+88,"On the morning of July 5th, on the Bangkok street where Alexandre Cazes lived, half a dozen undercover agents waited for their cues to begin an elaborate sting. The goal: To take down AlphaBay’s boss once and for all. 🎨: @hogingkim https://t.co/OxMZkgePCj 1/14 https://t.co/Cyd0OmME8S",2022-11-22T14:54:37.000Z,1344951,1595068237636833282,['1595068237636833282']
+89,"Whether you want to battle Star Wars spaceships or shoot a cinematic masterpiece, we've got a great drone option for you. https://t.co/P541icRkDX",2022-11-22T14:32:06.000Z,1344951,1595062569970143232,['1595062569970143232']
+90,Here are the ideas from COP27 that are likely to be successful—as well as those that aren’t. https://t.co/bunZL9FQ7q,2022-11-22T14:10:25.000Z,1344951,1595057116351381505,['1595057116351381505']
+91,"Is Moore’s law really dead? https://t.co/PTfp8mcxdC
+📷: Shawn Michael Jones https://t.co/coDZQklp4p",2022-11-22T14:03:03.000Z,1344951,1595055262557143049,['1595055262557143049']
+92,"The fate of users who left Facebook may provide clues to a post-Twitter world: https://t.co/6PrPOdBhGu
+🎨: WIRED Staff; Getty https://t.co/ajQ8vHmk3B",2022-11-22T13:04:02.000Z,1344951,1595040410379833344,['1595040410379833344']
+93,"On the morning of July 5th, on the Bangkok street where Alexandre Cazes lived, half a dozen undercover agents waited for their cues to begin an elaborate sting. The goal: To take down AlphaBay’s boss once and for all. https://t.co/pPfQgGHmcv",2022-11-22T12:02:04.000Z,1344951,1595024813864656897,['1595024813864656897']
+94,"WIRED WORLD 2023: Join us at 11:30am PST / 7:30 BST @TwitterSpaces for a discussion on the impact of microbial technology on climate change in 2023 and beyond with Guy Hudson, the co-founder and CEO of @loambio
+. 
+RSVP here: https://t.co/33TAKVXxZM https://t.co/iVm6E7ajgy",2022-11-22T11:26:05.000Z,1344951,1595015757494206465,['1595015757494206465']
+95,"Here’s an odd climate contradiction. If we burn less gas, oil, and coal, we’ll stop loading the sky with planet-warming carbon, but we’ll also load it with fewer planet-cooling aerosols. https://t.co/fuZVAQDRRa",2022-11-22T11:04:02.000Z,1344951,1595010210682220544,['1595010210682220544']
+96,"As more people begin to ponder and experiment with generative AI, there will probably be more lawsuits too. https://t.co/YMniZbsgEB",2022-11-22T10:35:06.000Z,1344951,1595002929320108032,['1595002929320108032']
+97,"When it comes to issues like climate change, too many let the perfect become the enemy of the good, while the world burns. https://t.co/26xj2HQwcA",2022-11-22T10:04:03.000Z,1344951,1594995115248046081,['1594995115248046081']
+98,"Let's face it, teenagers are straight-up intimidating. No cap (?) So we informally polled some of the terrifying super-cool teens in our lives to find out what presents they really want. 
+
+Click the link to be lowkey goated (?): https://t.co/yO2JV0BEPr
+
+📸: Nintendo https://t.co/PVJvLDYXTx",2022-11-22T09:00:24.000Z,1344951,1594979094781124608,['1594979094781124608']
+99,Skip the Black Friday chaos and get in on these early tech deals. https://t.co/Spi6DQCdNb,2022-11-22T08:30:16.000Z,1344951,1594971513035411456,['1594971513035411456']
