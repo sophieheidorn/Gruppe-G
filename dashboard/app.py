@@ -34,10 +34,11 @@ if len(chart_party) > 0:
 
 # Title of our app
 st.title("US POLITICS") 
-# Add header
-st.header("The App is about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak")
 # Add a gif
 st.markdown("![Alt Text](https://media.giphy.com/media/onjwu5lrSCrvbUQVfR/fullscreen/giphy.gif)")
+# Add header
+st.header("The App is about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak")
+
 
 #-------------------#
 # BODY
@@ -81,6 +82,7 @@ c = chart
 
 # Show plot
 st.altair_chart(c, use_container_width=True)
+
 
 ###-------------------###
 
@@ -131,6 +133,7 @@ c = pie
 # Show plot
 st.altair_chart(c, use_container_width=True)
 
+
 ###-------------------###
 
 # Chart 3
@@ -174,6 +177,7 @@ c = chart
 # Show plot
 st.altair_chart(c, use_container_width=True)
 
+
 ###-------------------###
 
 # Chart 4
@@ -206,7 +210,7 @@ chart = alt.Chart(df).mark_bar(
 ).interactive(
 ).properties(
     title='How many polls did the pollsters carry out for each Trump and Biden?',
-    width=1300,
+    width=900,
     height=550
 ).configure_title(
     fontSize=20,
@@ -222,3 +226,7 @@ c = chart
 st.altair_chart(c, use_container_width=True)
 
 ###-------------------###
+
+#End
+st.write("Now you know more about US politics.")
+
