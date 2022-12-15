@@ -15,10 +15,13 @@ from datetime import datetime
 # Data import
 df = pd.read_csv("https://github.com/sophieheidorn/homework-1/blob/main/data/external/data.csv", on_bad_lines='skip')
 
-# Data transformation
-df['Date'] = pd.to_datetime(df['date']).dt.strftime('%Y-%m-%d')
+# Chart 1
 
+# Data structure 
+## Exploratory data analysis
 
+df['party'] = df['party'].astype("category")
+df['sample_size'] = df['sample_size'].astype("category")
 
 #-------------------
 # START OF APP
@@ -49,6 +52,7 @@ st.header("This is the interactive app from team G")
 # Show static DataFrame
 st.subheader("Show Data")
 st.write("Here's my data:")
+
 chart = alt.Chart(df).mark_bar(size = 40).encode(
     x=alt.X('party',
             sort='-y',
@@ -71,9 +75,34 @@ chart = alt.Chart(df).mark_bar(size = 40).encode(
 )
 
 chart
-#-------------------
-# Show a map
-st.write("Plot a map")
-st.map(df_subset)
 
-#-------------------
+c = chart
+
+# Show plot
+st.altair_chart(c, use_container_width=True)
+
+###-------------------###
+
+chart = alt.Chart(source).mark_arc(innerRadius=30).encode(
+    theta=alt.Theta("count:Q", stack=True), 
+    color=alt.Color("Population:N"),
+    tooltip=["count", "Population"]
+).properties(
+    height=300, width=300,
+    title="Questioned Population"
+)
+
+
+pie = chart.mark_arc(outerRadius=120)
+legend = chart.mark_text(radius=140, size=20).encode(text="Population:N")
+
+
+
+pie + legend
+
+c = pie + chart
+
+# Show plot
+st.altair_chart(c, use_container_width=True)
+
+###-------------------###
