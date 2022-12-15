@@ -15,14 +15,6 @@ from datetime import datetime
 # Data import
 df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 
-
-
-# Data structure 
-## Exploratory data analysis
-
-df['party'] = df['party'].astype("category")
-df['sample_size'] = df['sample_size'].astype("category")
-
 #-------------------
 # START OF APP
 
@@ -33,31 +25,36 @@ df['sample_size'] = df['sample_size'].astype("category")
 chart_party = st.sidebar.multiselect('Select party', df['party'].unique().tolist())
 
 # Create a subset out of chart_party 
-# if len(chart_party) > 0:
-   # df_subset = df[df['party'].isin(chart_party)]
-    #evtl.raus
+if len(chart_party) > 0:
+   df_subset = df[df['party'].isin(chart_party)]
+
 
 #-------------------
 # HEADER
 
 # Title of our app
-st.title("Count of party members questioned ")
+st.title("US POLITICS") 
 # Add header
-st.header("This is the interactive app from team G")
-# Add picture
-# st.image('hdm-logo.jpg')
+st.header("The App is about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak")
+# Add a gif
+st.markdown("![Alt Text](https://media.giphy.com/media/onjwu5lrSCrvbUQVfR/fullscreen/giphy.gif)")
 
-#-------------------
+#-------------------#
 # BODY
-
-#-------------------
-# Show static DataFrame
-st.subheader("Show Data")
-st.write("Here's my data:")
 
 ###-------------------###
 
 # Chart 1
+
+st.subheader("Chart 1")
+st.write("Bar plot:")
+
+# Data structure 
+
+df['party'] = df['party'].astype("category")
+df['sample_size'] = df['sample_size'].astype("category")
+
+## Exploratory data analysis
 
 chart = alt.Chart(df).mark_bar(size = 40).encode(
     x=alt.X('party',
@@ -77,7 +74,7 @@ chart = alt.Chart(df).mark_bar(size = 40).encode(
     fontSize=15,
     font='Arial',
     anchor='middle',
-    color='black'
+    color='white'
 )
 
 c = chart
@@ -88,6 +85,9 @@ st.altair_chart(c, use_container_width=True)
 ###-------------------###
 
 # Chart 2
+
+st.subheader("Chart 2")
+st.write("Pie chart:")
 
 ### Data structure
 
@@ -126,6 +126,9 @@ st.altair_chart(c, use_container_width=True)
 ###-------------------###
 
 # Chart 3
+
+st.subheader("Chart 3")
+st.write("Mark bar:")
 
 ### Data structure
 
