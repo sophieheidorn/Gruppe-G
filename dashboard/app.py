@@ -6,8 +6,8 @@ import pandas as pd
 import altair as alt
 
 from pathlib import Path
-import datetime as dt
-from datetime import datetime
+# import datetime as dt
+# from datetime import datetime
 
 #-------------------
 # DATA
@@ -33,8 +33,8 @@ df['sample_size'] = df['sample_size'].astype("category")
 chart_party = st.sidebar.multiselect('Select party', df['party'].unique().tolist())
 
 # Create a subset out of chart_party 
-if len(chart_party) > 0:
-    df_subset = df[df['party'].isin(chart_party)]
+# if len(chart_party) > 0:
+   # df_subset = df[df['party'].isin(chart_party)]
     #evtl.raus
 
 #-------------------
@@ -54,6 +54,7 @@ st.image('hdm-logo.jpg')
 # Show static DataFrame
 st.subheader("Show Data")
 st.write("Here's my data:")
+
 
 chart = alt.Chart(df).mark_bar(size = 40).encode(
     x=alt.X('party',
