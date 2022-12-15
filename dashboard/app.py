@@ -29,13 +29,13 @@ df['sample_size'] = df['sample_size'].astype("category")
 #-------------------
 # SIDEBAR
 
-# Make a chart_party 
+# Make a sidebar  
 chart_party = st.sidebar.multiselect('Select party', df['party'].unique().tolist())
 
 # Create a subset out of chart_party 
 if len(chart_party) > 0:
     df_subset = df[df['party'].isin(chart_party)]
-    
+    #evtl.raus
 
 #-------------------
 # HEADER
@@ -44,6 +44,8 @@ if len(chart_party) > 0:
 st.title("Count of party members questioned ")
 # Add header
 st.header("This is the interactive app from team G")
+# Add picture
+st.image('hdm-logo.jpg')
 
 #-------------------
 # BODY
