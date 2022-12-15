@@ -13,7 +13,7 @@ from pathlib import Path
 # DATA
 
 # Data import
-df = pd.read_csv("https://github.com/sophieheidorn/homework-1/blob/main/data/external/data.csv", on_bad_lines='skip')
+df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 
 # Chart 1
 
@@ -45,7 +45,7 @@ st.title("Count of party members questioned ")
 # Add header
 st.header("This is the interactive app from team G")
 # Add picture
-st.image('hdm-logo.jpg')
+# st.image('hdm-logo.jpg')
 
 #-------------------
 # BODY
