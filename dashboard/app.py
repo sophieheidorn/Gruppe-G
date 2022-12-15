@@ -6,8 +6,8 @@ import pandas as pd
 import altair as alt
 
 from pathlib import Path
-# import datetime as dt
-# from datetime import datetime
+import datetime as dt
+from datetime import datetime
 
 #-------------------
 # DATA
@@ -15,7 +15,7 @@ from pathlib import Path
 # Data import
 df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 
-# Chart 1
+
 
 # Data structure 
 ## Exploratory data analysis
@@ -55,6 +55,9 @@ st.header("This is the interactive app from team G")
 st.subheader("Show Data")
 st.write("Here's my data:")
 
+###-------------------###
+
+# Chart 1
 
 chart = alt.Chart(df).mark_bar(size = 40).encode(
     x=alt.X('party',
@@ -77,14 +80,30 @@ chart = alt.Chart(df).mark_bar(size = 40).encode(
     color='black'
 )
 
-chart
-
 c = chart
 
 # Show plot
 st.altair_chart(c, use_container_width=True)
 
 ###-------------------###
+
+# Chart 2
+
+### Data structure
+
+df['population'] = df['population'].astype("category")
+
+## Exploratory data analysis
+
+source = pd.DataFrame(df.population.value_counts())
+
+source = source.reset_index()
+
+source.rename(columns={"index": "Population", "population": "count"}, inplace=True)
+
+source
+
+
 
 chart = alt.Chart(source).mark_arc(innerRadius=30).encode(
     theta=alt.Theta("count:Q", stack=True), 
@@ -99,11 +118,90 @@ chart = alt.Chart(source).mark_arc(innerRadius=30).encode(
 pie = chart.mark_arc(outerRadius=120)
 legend = chart.mark_text(radius=140, size=20).encode(text="Population:N")
 
+c = pie + legend
 
+# Show plot
+st.altair_chart(c, use_container_width=True)
 
-pie + legend
+###-------------------###
 
-c = pie + chart
+# Chart 3
+
+### Data structure
+
+df.subject = df.subject.astype("category")
+df.party = df.party.astype("category")
+
+## Exploratory data analysis
+
+chart = alt.Chart(df).mark_bar(size = 60).encode(
+    x=alt.X('subject',
+            sort='-y',
+            axis=alt.Axis(title="Subject", 
+                          titleAnchor="middle", 
+                          labelAngle=0)),
+    y=alt.Y('count(subject)', 
+            axis=alt.Axis(title = "Count", 
+                          titleAnchor="middle")),
+    color= alt.Color('party', 
+                     legend=alt.Legend(title="Party"), scale=alt.Scale(scheme='tableau20')),
+    tooltip=["subject", "party", "count(subject)"]
+).interactive(
+).properties(
+    title='How many people of which party were questioned for each Trump and Biden?',
+    width=350,
+    height=250
+).configure_title(
+    fontSize=15,
+    font='Arial',
+    anchor='middle',
+    color='orange'
+)
+
+c = chart
+
+# Show plot
+st.altair_chart(c, use_container_width=True)
+
+###-------------------###
+
+# Chart 4
+
+### Data structure
+
+df.pollster = df.pollster.astype("category")
+df.subject = df.subject.astype("category")
+
+## Exploratory data analysis
+
+chart = alt.Chart(df).mark_bar(
+    cornerRadiusTopLeft=3,
+    cornerRadiusTopRight=3,
+    size=10
+).encode(
+    x=alt.X('pollster:O',
+            sort='-y',
+            axis=alt.Axis(title="Pollster", 
+                          titleAnchor="middle")),
+    y=alt.Y('count(subject):Q', 
+            axis=alt.Axis(title = "Count(Subject)", 
+                          titleAnchor="middle")),
+    color=alt.Color('subject:N', 
+                     legend=alt.Legend(title="Subject"), scale=alt.Scale(scheme='dark2')),
+    tooltip=[ "pollster", "subject", "count(subject)"]
+).interactive(
+).properties(
+    title='How many polls did the pollsters carry out for each Trump and Biden?',
+    width=900,
+    height=550
+).configure_title(
+    fontSize=25,
+    font='New Times Roman',
+    anchor='middle',
+    color='orange'
+)
+
+c = chart
 
 # Show plot
 st.altair_chart(c, use_container_width=True)
