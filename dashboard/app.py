@@ -74,7 +74,7 @@ chart = alt.Chart(df).mark_bar(size = 40).encode(
     fontSize=15,
     font='Arial',
     anchor='middle',
-    color='white'
+    color='orange'
 )
 
 c = chart
@@ -87,7 +87,8 @@ st.altair_chart(c, use_container_width=True)
 # Chart 2
 
 st.subheader("Chart 2")
-st.write("Pie chart:")
+st.write("Data with the highlited maximum:")
+
 
 ### Data structure
 
@@ -101,24 +102,31 @@ source = source.reset_index()
 
 source.rename(columns={"index": "Population", "population": "count"}, inplace=True)
 
-source
+source 
 
+#-------------------#
 
+st.write("Pie chart:")
 
 chart = alt.Chart(source).mark_arc(innerRadius=30).encode(
     theta=alt.Theta("count:Q", stack=True), 
     color=alt.Color("Population:N"),
     tooltip=["count", "Population"]
 ).properties(
-    height=300, width=300,
+    height=500, width=500,
     title="Questioned Population"
+).configure_title(
+    fontSize=20,
+    font='Arial',
+    anchor='middle',
+    color='orange'
 )
 
 
-pie = chart.mark_arc(outerRadius=120)
-legend = chart.mark_text(radius=140, size=20).encode(text="Population:N")
+pie = chart.mark_arc(outerRadius=160)
+legend = chart.mark_text(radius=150, size=40).encode(text="Population:N")
 
-c = pie + legend
+c = pie 
 
 # Show plot
 st.altair_chart(c, use_container_width=True)
@@ -170,6 +178,9 @@ st.altair_chart(c, use_container_width=True)
 
 # Chart 4
 
+st.subheader("Chart 4")
+st.write("Mark bar:")
+
 ### Data structure
 
 df.pollster = df.pollster.astype("category")
@@ -178,8 +189,8 @@ df.subject = df.subject.astype("category")
 ## Exploratory data analysis
 
 chart = alt.Chart(df).mark_bar(
-    cornerRadiusTopLeft=3,
-    cornerRadiusTopRight=3,
+    cornerRadiusTopLeft=50,
+    cornerRadiusTopRight=50,
     size=10
 ).encode(
     x=alt.X('pollster:O',
@@ -195,14 +206,15 @@ chart = alt.Chart(df).mark_bar(
 ).interactive(
 ).properties(
     title='How many polls did the pollsters carry out for each Trump and Biden?',
-    width=900,
+    width=1300,
     height=550
 ).configure_title(
-    fontSize=25,
-    font='New Times Roman',
+    fontSize=20,
+    font='Arial',
     anchor='middle',
     color='orange'
 )
+
 
 c = chart
 
