@@ -1,13 +1,8 @@
 # SETUP
 import streamlit as st
-
 import numpy as np
 import pandas as pd
 import altair as alt
-
-#from pathlib import Path
-#import datetime as dt
-#from datetime import datetime
 
 #-------------------#
 # DATA
@@ -39,7 +34,7 @@ st.title("US POLITICS")
 # Add a gif
 st.markdown("![Alt Text](https://media.giphy.com/media/onjwu5lrSCrvbUQVfR/fullscreen/giphy.gif)")
 # Add header
-st.header("The following visualizations are about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak")
+st.header("The following visualizations are about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak.")
 
 
 #-------------------#
@@ -191,7 +186,7 @@ df.subject = df.subject.astype("category")
 chart = alt.Chart(df).mark_bar(
     cornerRadiusTopLeft=50,
     cornerRadiusTopRight=50,
-    size=10
+    size=5
 ).encode(
     x=alt.X('pollster:O',
             sort='-y',
@@ -209,7 +204,7 @@ chart = alt.Chart(df).mark_bar(
     width=900,
     height=550
 ).configure_title(
-    fontSize=20,
+    fontSize=15,
     font='Arial',
     anchor='middle',
     color='orange'
