@@ -9,27 +9,29 @@ from pathlib import Path
 import datetime as dt
 from datetime import datetime
 
-#-------------------
+#-------------------#
 # DATA
 
 # Data import
 df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 
-#-------------------
+#-------------------#
 # START OF APP
 
-#-------------------
+#-------------------#
 # SIDEBAR
 
-# Make a sidebar  
-chart_party = st.sidebar.multiselect('Select party', df['party'].unique().tolist())
+# Header
+st.sidebar.header("Your opinion is requested:")
 
-# Create a subset out of chart_party 
-if len(chart_party) > 0:
-   df_subset = df[df['party'].isin(chart_party)]
+# Make a slider
+handling = st.sidebar.slider('How do you assess the handling of corona in the usa at the moment on a scale from 1 to 10?', 0, 10, 1)
 
+# Show output of slider selection
+st.sidebar.write("my assessment is ", handling, 'from 10 points')
 
-#-------------------
+#-------------------#
+
 # HEADER
 
 # Title of our app
@@ -37,7 +39,7 @@ st.title("US POLITICS")
 # Add a gif
 st.markdown("![Alt Text](https://media.giphy.com/media/onjwu5lrSCrvbUQVfR/fullscreen/giphy.gif)")
 # Add header
-st.header("The App is about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak")
+st.header("The following visualizations are about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak")
 
 
 #-------------------#
@@ -89,8 +91,7 @@ st.altair_chart(c, use_container_width=True)
 # Chart 2
 
 st.subheader("Chart 2")
-st.write("Data with the highlited maximum:")
-
+st.write("The data:")
 
 ### Data structure
 
@@ -108,7 +109,7 @@ source
 
 #-------------------#
 
-st.write("Pie chart:")
+st.write("Pie chart of the data:")
 
 chart = alt.Chart(source).mark_arc(innerRadius=30).encode(
     theta=alt.Theta("count:Q", stack=True), 
@@ -117,18 +118,13 @@ chart = alt.Chart(source).mark_arc(innerRadius=30).encode(
 ).properties(
     height=500, width=500,
     title="Questioned Population"
-).configure_title(
-    fontSize=20,
-    font='Arial',
-    anchor='middle',
-    color='orange'
 )
 
 
-pie = chart.mark_arc(outerRadius=160)
-legend = chart.mark_text(radius=150, size=40).encode(text="Population:N")
+pie = chart.mark_arc(outerRadius=110)
+legend = chart.mark_text(radius=160, size=30).encode(text="Population:N")
 
-c = pie 
+c = pie + legend 
 
 # Show plot
 st.altair_chart(c, use_container_width=True)
@@ -139,7 +135,7 @@ st.altair_chart(c, use_container_width=True)
 # Chart 3
 
 st.subheader("Chart 3")
-st.write("Mark bar:")
+st.write("Stacked bar chart:")
 
 ### Data structure
 
@@ -183,7 +179,7 @@ st.altair_chart(c, use_container_width=True)
 # Chart 4
 
 st.subheader("Chart 4")
-st.write("Mark bar:")
+st.write("Stacked bar chart:")
 
 ### Data structure
 
