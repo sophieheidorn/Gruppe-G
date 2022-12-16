@@ -5,9 +5,9 @@ import numpy as np
 import pandas as pd
 import altair as alt
 
-from pathlib import Path
-import datetime as dt
-from datetime import datetime
+#from pathlib import Path
+#import datetime as dt
+#from datetime import datetime
 
 #-------------------#
 # DATA
@@ -223,6 +223,14 @@ st.altair_chart(c, use_container_width=True)
 
 ###-------------------###
 
-#End
+
 st.write("Now you know more about US politics.")
 
+# Add slider with user input
+
+st.subheader("Good to know about the US")
+st.write("Converter:")
+x = st.slider('x')  # 👈 this is a widget
+st.write(x, '$ are around', x * 0.94 ,'€.')
+
+#End
