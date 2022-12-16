@@ -224,6 +224,10 @@ st.write("Now you know more about US politics.")
 # Add slider with user input
 
 st.subheader("Good to know about the US")
+
+# Add a gif
+st.markdown("![Alt Text](https://media.giphy.com/media/5u0uZecUZlUsM/fullscreen/giphy.gif)")
+
 st.write("Converter:")
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, '$ are around', x * 0.94 ,'€.')
