@@ -16,24 +16,25 @@ df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 #-------------------#
 # SIDEBAR
 
-# Header
+#Header
 st.sidebar.header("Your opinion is requested:")
 
-# Make a slider
+# Slider
 handling = st.sidebar.slider('How do you assess the handling of corona in the usa at the moment on a scale from 1 to 10?', 0, 10, 1)
 
-# Show output of slider selection
+# Output of slider selection
 st.sidebar.write("my assessment is ", handling, 'from 10 points')
 
 #-------------------#
-
 # HEADER
 
-# Title of our app
+# Title of the app
 st.title("US POLITICS") 
-# Add a gif
+
+# Gif
 st.markdown("![Alt Text](https://media.giphy.com/media/onjwu5lrSCrvbUQVfR/fullscreen/giphy.gif)")
-# Add header
+
+# Header
 st.header("The following visualizations are about the opinion of different groups in America concerning Trump and Bidens handling of the coronavirus outbreak.")
 
 
@@ -41,14 +42,12 @@ st.header("The following visualizations are about the opinion of different group
 # BODY
 
 ###-------------------###
-
 # Chart 1
 
 st.subheader("Chart 1")
 st.write("Bar plot:")
 
 # Data structure 
-
 df['party'] = df['party'].astype("category")
 df['sample_size'] = df['sample_size'].astype("category")
 
@@ -82,14 +81,12 @@ st.altair_chart(c, use_container_width=True)
 
 
 ###-------------------###
-
 # Chart 2
 
 st.subheader("Chart 2")
 st.write("The data:")
 
-### Data structure
-
+# Data structure
 df['population'] = df['population'].astype("category")
 
 ## Exploratory data analysis
@@ -126,14 +123,12 @@ st.altair_chart(c, use_container_width=True)
 
 
 ###-------------------###
-
 # Chart 3
 
 st.subheader("Chart 3")
 st.write("Stacked bar chart:")
 
-### Data structure
-
+# Data structure
 df.subject = df.subject.astype("category")
 df.party = df.party.astype("category")
 
@@ -218,18 +213,21 @@ st.altair_chart(c, use_container_width=True)
 
 ###-------------------###
 
-
 st.write("Now you know more about US politics.")
 
-# Add slider with user input
 
+#-------------------#
+# Slider with user input
+
+# Subheader
 st.subheader("Good to know about the US")
 
-# Add a gif
+# Gif
 st.markdown("![Alt Text](https://media.giphy.com/media/5u0uZecUZlUsM/fullscreen/giphy.gif)")
 
 st.write("Converter:")
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, '$ are around', x * 0.94 ,'€.')
 
+#-------------------#
 #End
