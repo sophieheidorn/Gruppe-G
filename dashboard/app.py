@@ -1,3 +1,4 @@
+#-------------------#
 # SETUP
 import streamlit as st
 import numpy as np
@@ -226,7 +227,7 @@ st.subheader("Good to know about the US")
 st.markdown("![Alt Text](https://media.giphy.com/media/5u0uZecUZlUsM/fullscreen/giphy.gif)")
 
 st.write("Converter:")
-x = st.slider('x')  # 👈 this is a widget
+x = st.slider('x')  
 st.write(x, '$ are around', x * 0.94 ,'€.')
 
 #-------------------#
