@@ -11,7 +11,7 @@ import altair as alt
 df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 
 #-------------------#
-# START OF APP
+# START 
 
 #-------------------#
 # SIDEBAR
@@ -28,7 +28,7 @@ st.sidebar.write("my assessment is ", handling, 'from 10 points')
 #-------------------#
 # HEADER
 
-# Title of the app
+# Title of the Deshboard
 st.title("US POLITICS") 
 
 # Gif
