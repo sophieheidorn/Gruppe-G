@@ -11,7 +11,7 @@ import altair as alt
 df = pd.read_csv("../data/external/data.csv", on_bad_lines='skip')
 
 #-------------------#
-# START OF APP
+# START 
 
 #-------------------#
 # SIDEBAR
@@ -28,7 +28,7 @@ st.sidebar.write("my assessment is ", handling, 'from 10 points')
 #-------------------#
 # HEADER
 
-# Title of the app
+# Title of the Deshboard
 st.title("US POLITICS") 
 
 # Gif
@@ -179,16 +179,16 @@ df.subject = df.subject.astype("category")
 ## Exploratory data analysis
 
 chart = alt.Chart(df).mark_bar(
-    cornerRadiusTopLeft=50,
-    cornerRadiusTopRight=50,
-    size=5
+    cornerRadiusTopLeft=3,
+    cornerRadiusTopRight=3,
+    size=10
 ).encode(
-    x=alt.X('pollster:O',
-            sort='-y',
-            axis=alt.Axis(title="Pollster", 
+    x=alt.X('count(subject):Q', 
+            axis=alt.Axis(title = "Count(Polls)", 
                           titleAnchor="middle")),
-    y=alt.Y('count(subject):Q', 
-            axis=alt.Axis(title = "Count(Subject)", 
+    y=alt.Y('pollster:O',
+            sort='-x',
+            axis=alt.Axis(title="Pollster", 
                           titleAnchor="middle")),
     color=alt.Color('subject:N', 
                      legend=alt.Legend(title="Subject"), scale=alt.Scale(scheme='dark2')),
@@ -196,8 +196,8 @@ chart = alt.Chart(df).mark_bar(
 ).interactive(
 ).properties(
     title='How many polls did the pollsters carry out for each Trump and Biden?',
-    width=900,
-    height=550
+    width=999,
+    height=999
 ).configure_title(
     fontSize=15,
     font='Arial',
